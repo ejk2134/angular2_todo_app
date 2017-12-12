@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {FormsModule} from '@angular/forms';
+import { TodoListHeaderComponent } from './todo-list-header/todo-list-header.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoListHeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
