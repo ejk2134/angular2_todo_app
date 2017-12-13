@@ -7,7 +7,7 @@ import {TodoDataService} from './todo-data.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [TodoDataService]
+  providers: []
 })
 export class AppComponent {
   // Ask Angular DI system to inject the dependency associated with the dependency
